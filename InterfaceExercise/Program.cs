@@ -39,6 +39,70 @@ namespace InterfaceExercise
 
             //Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their values
+            Car c1 = new Car();
+            c1.CompanyName = "Toyota";
+            c1.Logo = "simple";
+            c1.IsCheap = "Yes";
+            c1.NumberOfWheels = "four";
+            c1.NumberOfDoors = "four";
+            c1.NumberOfSeats = "five";
+            c1.IsSmall = "Yes";
+            c1.HasTrunk = "Yes";
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine($"The company name is {c1.CompanyName}.");
+            Console.WriteLine($"The logo is {c1.Logo}.");
+            Console.WriteLine($"Is the car cheap? {c1.IsCheap}.");
+            Console.WriteLine($"The number of wheels is {c1.NumberOfWheels}.");
+            Console.WriteLine($"The number of doors is {c1.NumberOfDoors}.");
+            Console.WriteLine($"The number of seats is {c1.NumberOfSeats}.");
+            Console.WriteLine($"Is the car small? {c1.IsSmall}");
+            Console.WriteLine($"Does the car have a trunk? {c1.HasTrunk}.");
+
+
+
+
+            Truck t1 = new Truck();
+            t1.CompanyName = "Chevorlet";
+            t1.Logo = "simple";
+            t1.HasBed = "Yes";
+            t1.NumberOfWheels = "four";
+            t1.NumberOfDoors = "four";
+            t1.NumberOfSeats = "five";
+            t1.HasBackslideWindow = "Yes";
+            t1.HasTrunk = "No";
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine($"The company name is {t1.CompanyName}.");
+            Console.WriteLine($"The logo is {t1.Logo}");
+            Console.WriteLine($"Does the truck have a bed? {t1.HasBed}.");
+            Console.WriteLine($"The number of wheels is {t1.NumberOfWheels}.");
+            Console.WriteLine($"The number of doors is {t1.NumberOfDoors}.");
+            Console.WriteLine($"The number of seats is {t1.NumberOfSeats}.");
+            Console.WriteLine($"Does the truck have a Backslide window? {t1.HasBackslideWindow}.");
+            Console.WriteLine($"Does the truck have a trunk? {t1.HasTrunk}.");
+
+
+
+            SUV suv1 = new SUV();
+            suv1.CompanyName = "Chevorlet";
+            suv1.Logo = "simple";
+            suv1.Is3Row = "Yes";
+            suv1.NumberOfWheels = "four";
+            suv1.NumberOfDoors = "four";
+            suv1.NumberOfSeats = "eight";
+            suv1.HasTrunk = "Yes";
+            suv1.HasSpaciousTrunk = "No";
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine($"The company name is {suv1.CompanyName}.");
+            Console.WriteLine($"The logo is {suv1.Logo}.");
+            Console.WriteLine($"Is the SUV a three row? {suv1.Is3Row}.");
+            Console.WriteLine($"The number of wheels is {suv1.NumberOfWheels}.");
+            Console.WriteLine($"The number of doors is {suv1.NumberOfDoors}.");
+            Console.WriteLine($"The number of seats is {suv1.NumberOfSeats}.");
+            Console.WriteLine($"Does the SUV have a trunk? {suv1.HasTrunk}.");
+            Console.WriteLine($"Does the SUV have spacious trunk? {suv1.HasSpaciousTrunk}.");
         }
     }
 }
